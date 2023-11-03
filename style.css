@@ -93,6 +93,7 @@ header img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 2rem;
 }
 #container-text {
     height: 270px;
@@ -163,6 +164,9 @@ main {
     width: 400px;
     height: 250px;
 }
+#news-reverse {
+    justify-content: end;
+}
 #news1 {
     background-image: url(./img/fundo\ 4.jfif);
     background-size:cover;
@@ -203,4 +207,25 @@ main {
 }
 #major-news {
 
+}
+@media screen and (max-width: 1200px) {
+    #apresention {
+        height: auto !important;
+        padding: 3rem 0px 6rem 0px;
+    }
+    #container-apresention {
+        flex-direction: column-reverse;
+    }
+}
+@media screen and (max-width: 830px) {
+    nav {
+        display: none;
+    }
+    .news {
+        flex-direction: column;
+        align-items: center;
+    }
+    #news-reverse {
+        flex-direction: column-reverse !important;
+    }
 }

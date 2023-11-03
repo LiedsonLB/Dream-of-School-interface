@@ -128,9 +128,6 @@ header img {
     height: 315px;
     width: 560px;
 }
-#container-video video{
-    
-}
 #container-message {
     position: absolute;
     background-color: var(--color-red);
@@ -165,7 +162,6 @@ main {
 .news-img {
     width: 400px;
     height: 250px;
-    background-color: aqua;
 }
 #news1 {
     background-image: url(./img/fundo\ 4.jfif);
@@ -206,5 +202,5 @@ main {
     margin: 0 auto;
 }
 #major-news {
-    
+
 }

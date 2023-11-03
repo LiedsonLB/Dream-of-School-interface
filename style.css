@@ -1,0 +1,210 @@
+:root {
+    --revalia-font: 'Revalia', sans-serif;
+    --russo-font: 'Russo One', sans-serif;
+    --color-red: #FF3333;
+    --color-white: #F8F7F3;
+    --color-black: #161616;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    color: var(--color-white);
+    text-decoration: none;
+}
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    font-family: var(--russo-font);
+    overflow-x: hidden;
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+/* Estilo da barra de rolagem */
+::-webkit-scrollbar {
+    width: 7px; /* Largura da barra de rolagem */
+}
+
+/* Estilo da alça da barra de rolagem */
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-white); /* Cor da alça da barra de rolagem */
+    border-radius: 10px;
+}
+
+/* Estilo da faixa de rolagem */
+::-webkit-scrollbar-track {
+    background-color: var(--color-black); /* Cor da faixa de rolagem */
+}
+header {
+    width: 100%;
+    background-color: var(--color-black);
+    display: flex;
+    align-items: center;
+    padding: 2rem 3.5rem;
+    justify-content: space-between;
+    height: 80px;
+    position: sticky; /* Define o cabeçalho como "sticky" */
+    top: 0; /* Fixa o cabeçalho no topo da janela do navegador */
+    z-index: 100; /* Controla a pilha de sobreposição para garantir que o cabeçalho fique na parte superior */
+}
+nav {
+    display: flex;
+    gap: 15px;
+}
+nav a:hover, nav a:focus {
+    filter: drop-shadow(0px 0px 8px #fff);
+}
+header img {
+    height: 60px;
+}
+#container-login {
+    display: flex;
+    gap: 15px;
+}
+.btn {
+    padding: 0.3rem 1.3rem;
+    background-color: var(--color-red);
+    border: 1px solid var(--color-red);
+    border-radius: 4px;
+    color: var(--color-white);
+    font-family: var(--russo-font);
+    cursor: pointer;
+}
+.btn:hover, .btn:focus {
+    filter: drop-shadow(0px 0px 8px var(--color-red));
+}
+#cadaster {
+    background-color: transparent !important;
+
+}
+#apresention {
+    position: relative;
+    background: url(./img/BackGroundSite.svg);
+    background-size: cover;
+    height: 90vh;
+}
+#container-apresention {
+    width: 85%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#container-text {
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+}
+#container-text h1 {
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    -webkit-text-stroke: 1.2px #000000;
+    text-stroke: 1.2px #000000;
+    color: var(--color-white);
+    filter: drop-shadow(5px 5px 3px black);
+    font-family: var(--russo-font);
+}
+#container-text p {
+    font-size: 1.3rem;
+    max-width: 430px;
+    color: var(--color-white);
+    font-family: var(--revalia-font);
+    font-weight: 100;
+    filter: drop-shadow(5px 5px 3px black);
+}
+#storyBtn {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+}
+#container-video {
+    height: 315px;
+    width: 560px;
+}
+#container-video video{
+    
+}
+#container-message {
+    position: absolute;
+    background-color: var(--color-red);
+    border: 1px solid var(--color-white);
+    height: 100px;
+    width: 65%;
+    bottom: -7%;
+    left: 15%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--revalia-font);
+}
+#container-message h3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+main {
+    padding: 2rem 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.news {
+    width: 85%;
+    display: flex;
+    margin: 0 auto;
+    gap: 20px;
+}
+.news-img {
+    width: 400px;
+    height: 250px;
+    background-color: aqua;
+}
+#news1 {
+    background-image: url(./img/fundo\ 4.jfif);
+    background-size:cover;
+}
+#news2 {
+    background-image: url(./img/fundo\ 6.jfif);
+    background-size: cover;
+}
+#news3 {
+    background-image: url(./img/imagem\ fundo.jfif);
+    background-size: cover;
+}
+.news-text {
+    width: 550px;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+.news-text h1 {
+    border-left: 8px solid var(--color-white);
+    padding-left: 10px;
+    letter-spacing: .2rem;
+}
+#galeryImg {
+    padding: 2rem 0px;
+}
+#galeryImg h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+#container-galery-img {
+    height: 500px;
+    width: 85%;
+    background-color: #C4C4C4;
+    margin: 0 auto;
+}
+#major-news {
+    
+}

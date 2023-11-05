@@ -257,13 +257,25 @@ main {
 #container-downloads {
     font-family: var(--revalia-font);
     font-weight: 100;
-    color: #0c0c0c;
     background-color: var(--color-red);
     padding: 3rem 0px;
     text-align: center;
     display: flex;
     flex-direction: column;
     gap: 1rem;
+}
+.download {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+.download-text {
+    display: flex;
+    flex-direction: column;
+}
+.download-text h2{
+    color: #0c0c0c;
 }
 #downloads-links {
     padding: 4rem 0px 2rem 0px;

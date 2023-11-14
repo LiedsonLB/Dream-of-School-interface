@@ -52,7 +52,7 @@ nav a:hover, nav a:focus {
     filter: drop-shadow(0px 0px 8px #fff);
 }
 header img {
-    height: 60px;
+    height: 50px;
 }
 #container-login {
     display: flex;
@@ -101,7 +101,7 @@ header img {
     display: flex;
     flex-direction: column;
     max-width: 500px;
-    -webkit-text-stroke: 1.2px #000000;
+    -webkit-text-stroke: 1.2px gray;
     text-stroke: 1.2px #000000;
     color: var(--color-white);
     filter: drop-shadow(5px 5px 3px black);

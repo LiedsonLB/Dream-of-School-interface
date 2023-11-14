@@ -50,6 +50,14 @@ Sinta-se à vontade para personalizar a interface de acordo com as necessidades 
 
 Contribuições são bem-vindas! Se encontrar problemas ou tiver sugestões de melhorias, por favor, abra uma issue ou envie um pull request.
 
+Para contribuir, siga estas etapas:
+
+1. Faça um fork do projeto.
+2. Crie uma nova branch para sua contribuição: `git checkout -b feature/sua-contribuicao`.
+3. Faça as alterações necessárias.
+4. Envie as alterações: `git push origin feature/sua-contribuicao`.
+5. Abra um pull request.
+
 ## Licença
 
 Este projeto está sob a licença MIT, permitindo que você o utilize, modifique e distribua livremente conforme desejar.
